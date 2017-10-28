@@ -2,9 +2,14 @@ def reverse_each_word(string)
   array = string.split
   reversed_array = []
   array.each do |string|
-    word = string.split("")
-    letters = word.reverse!
-    letters.join() << reversed_array
+    string.reverse!
+    array.join(" ")
   end
-  reversed_array.join(" ")
+end
+
+def splitter(array)
+  array.each do |string|
+    string.reverse!
+    array.join(" ")
+  end
 end

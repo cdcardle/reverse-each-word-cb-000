@@ -7,9 +7,10 @@ def reverse_each_word(string)
   end
 end
 
-def splitter(array)
+def test(array)
   array.each do |string|
     string.reverse!
     array.join(" ")
   end
 end
+  

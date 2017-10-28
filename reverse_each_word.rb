@@ -8,6 +8,6 @@ end
 
 def test(array)
   array.collect do |string|
-    "#{string.reverse}"
+    puts "#{string.reverse}"
   end
 end

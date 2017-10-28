@@ -10,7 +10,6 @@ end
 def test(array)
   array.each do |string|
     string.reverse!
-    array.join(" ")
   end
+  return array.join(" ")
 end
-  
